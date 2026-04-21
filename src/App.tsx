@@ -20,26 +20,26 @@ const galleryDances = [
   {
     id: 1,
     title: 'Tswana Traditional',
-    video: '/videos/vid-hero-1.mp4',
-    image: '/images/img-hero-1.jpg',
+    video: '${import.meta.env.BASE_URL}videos/vid-hero-1.mp4',
+    image: '${import.meta.env.BASE_URL}images/img-hero-1.jpg',
   },
   {
     id: 2,
     title: 'Pantsula',
-    video: '/videos/vid-hero-2.mp4',
-    image: '/images/img-hero-2.jpg',
+    video: '${import.meta.env.BASE_URL}videos/vid-hero-2.mp4',
+    image: '${import.meta.env.BASE_URL}images/img-hero-2.jpg',
   },
   {
     id: 3,
     title: 'Sokkie',
-    video: '/videos/vid-hero-3.mp4',
-    image: '/images/img-hero-3.jpg',
+    video: '${import.meta.env.BASE_URL}videos/vid-hero-3.mp4',
+    image: '${import.meta.env.BASE_URL}images/img-hero-3.jpg',
   },
   {
     id: 4,
     title: 'Amapiano',
-    video: '/videos/vid-hero-4.mp4',
-    image: '/images/img-hero-4.jpg',
+    video: '${import.meta.env.BASE_URL}videos/vid-hero-4.mp4',
+    image: '${import.meta.env.BASE_URL}images/img-hero-4.jpg',
   },
 ]
 
